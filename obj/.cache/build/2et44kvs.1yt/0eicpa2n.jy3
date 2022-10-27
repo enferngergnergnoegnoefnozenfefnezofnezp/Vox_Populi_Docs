@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="OutlawEngine_renderer_render" data-uid="OutlawEngine.renderer.render" class="text-break">Class render
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">render</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="OutlawEngine.renderer.html">OutlawEngine.renderer</a></h6>
+  <h6><strong>Assembly</strong>: OutlawEngine.dll</h6>
+  <h5 id="OutlawEngine_renderer_render_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class render</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="OutlawEngine_renderer_render_Render_" data-uid="OutlawEngine.renderer.render.Render*"></a>
+  <h4 id="OutlawEngine_renderer_render_Render_OutlawEngine_Shader_OutlawEngine_Texture_System_Int32_OpenTK_Mathematics_Vector3_System_Single___" data-uid="OutlawEngine.renderer.render.Render(OutlawEngine.Shader,OutlawEngine.Texture,System.Int32,OpenTK.Mathematics.Vector3,System.Single[])">Render(Shader, Texture, Int32, Vector3, Single[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Render(Shader _shader, Texture _texture, int vao, Vector3 position, float[] vertice)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OutlawEngine.Shader.html">Shader</a></td>
+        <td><span class="parametername">_shader</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="OutlawEngine.Texture.html">Texture</a></td>
+        <td><span class="parametername">_texture</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">vao</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">OpenTK.Mathematics.Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span>[]</td>
+        <td><span class="parametername">vertice</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

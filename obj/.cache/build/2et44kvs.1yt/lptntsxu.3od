@@ -1,0 +1,662 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="Vox_Populi_Window" data-uid="Vox_Populi.Window" class="text-break">Class Window
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">OpenTK.Windowing.Desktop.NativeWindow</span></div>
+    <div class="level2"><span class="xref">OpenTK.Windowing.Desktop.GameWindow</span></div>
+    <div class="level3"><span class="xref">Window</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.GameWindow.Run()</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.GameWindow.SwapBuffers()</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.GameWindow.Close()</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.GameWindow.OnRenderThreadStarted()</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.GameWindow.OnUnload()</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.GameWindow.IsRunningSlowly</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.GameWindow.IsMultiThreaded</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.GameWindow.RenderFrequency</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.GameWindow.RenderTime</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.GameWindow.UpdateTime</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.GameWindow.UpdateFrequency</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.GameWindow.Load</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.GameWindow.Unload</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.GameWindow.UpdateFrame</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.GameWindow.RenderThreadStarted</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.GameWindow.RenderFrame</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Focus()</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.MakeCurrent()</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.ProcessEvents(System.Double)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.ProcessEvents()</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.ProcessWindowEvents(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.ProcessInputEvents()</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.PointToClient(OpenTK.Mathematics.Vector2i)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.PointToScreen(OpenTK.Mathematics.Vector2i)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.IsKeyDown(OpenTK.Windowing.GraphicsLibraryFramework.Keys)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.IsKeyPressed(OpenTK.Windowing.GraphicsLibraryFramework.Keys)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.IsKeyReleased(OpenTK.Windowing.GraphicsLibraryFramework.Keys)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.IsMouseButtonDown(OpenTK.Windowing.GraphicsLibraryFramework.MouseButton)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.IsMouseButtonPressed(OpenTK.Windowing.GraphicsLibraryFramework.MouseButton)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.IsMouseButtonReleased(OpenTK.Windowing.GraphicsLibraryFramework.MouseButton)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.FindMonitor()</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.TryGetCurrentMonitorScale(System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.TryGetCurrentMonitorDpi(System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.TryGetCurrentMonitorDpiRaw(System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnMove(OpenTK.Windowing.Common.WindowPositionEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnRefresh()</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnClosing(System.ComponentModel.CancelEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnClosed()</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnJoystickConnected(OpenTK.Windowing.Common.JoystickEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnFocusedChanged(OpenTK.Windowing.Common.FocusedChangedEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnKeyDown(OpenTK.Windowing.Common.KeyboardKeyEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnKeyUp(OpenTK.Windowing.Common.KeyboardKeyEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnMonitorConnected(OpenTK.Windowing.Common.MonitorEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnMouseLeave()</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnMouseEnter()</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnMouseDown(OpenTK.Windowing.Common.MouseButtonEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnMouseUp(OpenTK.Windowing.Common.MouseButtonEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnMouseMove(OpenTK.Windowing.Common.MouseMoveEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnMinimized(OpenTK.Windowing.Common.MinimizedEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnMaximized(OpenTK.Windowing.Common.MaximizedEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnFileDrop(OpenTK.Windowing.Common.FileDropEventArgs)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Dispose(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.CenterWindow()</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.CenterWindow(OpenTK.Mathematics.Vector2i)</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.WindowPtr</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.KeyboardState</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.LastKeyboardState</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.JoystickStates</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.LastJoystickStates</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.MousePosition</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.MouseDelta</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.MouseState</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.LastMouseState</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.IsAnyKeyDown</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.IsAnyMouseButtonDown</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.VSync</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Icon</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.IsEventDriven</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.ClipboardString</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Title</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.API</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Profile</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Flags</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.APIVersion</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Context</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.CurrentMonitor</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.IsFocused</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.IsVisible</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Exists</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.IsExiting</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.WindowState</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.WindowBorder</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Bounds</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Location</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Size</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.MinimumSize</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.MaximumSize</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.AspectRatio</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.ClientRectangle</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.ClientSize</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.IsFullscreen</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Cursor</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.CursorState</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.CursorVisible</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.CursorGrabbed</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Move</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Resize</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Refresh</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Closing</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Closed</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Minimized</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.Maximized</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.JoystickConnected</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.FocusedChanged</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.KeyDown</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.TextInput</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.KeyUp</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.MonitorConnected</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.MouseLeave</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.MouseEnter</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.MouseDown</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.MouseUp</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.MouseMove</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.MouseWheel</span>
+    </div>
+    <div>
+      <span class="xref">OpenTK.Windowing.Desktop.NativeWindow.FileDrop</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Vox_Populi.html">Vox_Populi</a></h6>
+  <h6><strong>Assembly</strong>: Vox__Populi.dll</h6>
+  <h5 id="Vox_Populi_Window_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Window : GameWindow, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="Vox_Populi_Window__ctor_" data-uid="Vox_Populi.Window.#ctor*"></a>
+  <h4 id="Vox_Populi_Window__ctor_OpenTK_Windowing_Desktop_GameWindowSettings_OpenTK_Windowing_Desktop_NativeWindowSettings_" data-uid="Vox_Populi.Window.#ctor(OpenTK.Windowing.Desktop.GameWindowSettings,OpenTK.Windowing.Desktop.NativeWindowSettings)">Window(GameWindowSettings, NativeWindowSettings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Window(GameWindowSettings gameWindowSettings, NativeWindowSettings nativeWindowSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OpenTK.Windowing.Desktop.GameWindowSettings</span></td>
+        <td><span class="parametername">gameWindowSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">OpenTK.Windowing.Desktop.NativeWindowSettings</span></td>
+        <td><span class="parametername">nativeWindowSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="Vox_Populi_Window__shader" data-uid="Vox_Populi.Window._shader">_shader</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Shader _shader</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="OutlawEngine.Shader.html">Shader</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="Vox_Populi_Window_cameraSpeed" data-uid="Vox_Populi.Window.cameraSpeed">cameraSpeed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float cameraSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="Vox_Populi_Window_debug_mesh" data-uid="Vox_Populi.Window.debug_mesh">debug_mesh</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool debug_mesh</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Vox_Populi_Window_OnLoad_" data-uid="Vox_Populi.Window.OnLoad*"></a>
+  <h4 id="Vox_Populi_Window_OnLoad" data-uid="Vox_Populi.Window.OnLoad">OnLoad()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnLoad()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">OpenTK.Windowing.Desktop.GameWindow.OnLoad()</span></div>
+  <a id="Vox_Populi_Window_OnMouseWheel_" data-uid="Vox_Populi.Window.OnMouseWheel*"></a>
+  <h4 id="Vox_Populi_Window_OnMouseWheel_OpenTK_Windowing_Common_MouseWheelEventArgs_" data-uid="Vox_Populi.Window.OnMouseWheel(OpenTK.Windowing.Common.MouseWheelEventArgs)">OnMouseWheel(MouseWheelEventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnMouseWheel(MouseWheelEventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OpenTK.Windowing.Common.MouseWheelEventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnMouseWheel(OpenTK.Windowing.Common.MouseWheelEventArgs)</span></div>
+  <a id="Vox_Populi_Window_OnRenderFrame_" data-uid="Vox_Populi.Window.OnRenderFrame*"></a>
+  <h4 id="Vox_Populi_Window_OnRenderFrame_OpenTK_Windowing_Common_FrameEventArgs_" data-uid="Vox_Populi.Window.OnRenderFrame(OpenTK.Windowing.Common.FrameEventArgs)">OnRenderFrame(FrameEventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnRenderFrame(FrameEventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OpenTK.Windowing.Common.FrameEventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">OpenTK.Windowing.Desktop.GameWindow.OnRenderFrame(OpenTK.Windowing.Common.FrameEventArgs)</span></div>
+  <a id="Vox_Populi_Window_OnResize_" data-uid="Vox_Populi.Window.OnResize*"></a>
+  <h4 id="Vox_Populi_Window_OnResize_OpenTK_Windowing_Common_ResizeEventArgs_" data-uid="Vox_Populi.Window.OnResize(OpenTK.Windowing.Common.ResizeEventArgs)">OnResize(ResizeEventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnResize(ResizeEventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OpenTK.Windowing.Common.ResizeEventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnResize(OpenTK.Windowing.Common.ResizeEventArgs)</span></div>
+  <a id="Vox_Populi_Window_OnTextInput_" data-uid="Vox_Populi.Window.OnTextInput*"></a>
+  <h4 id="Vox_Populi_Window_OnTextInput_OpenTK_Windowing_Common_TextInputEventArgs_" data-uid="Vox_Populi.Window.OnTextInput(OpenTK.Windowing.Common.TextInputEventArgs)">OnTextInput(TextInputEventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnTextInput(TextInputEventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OpenTK.Windowing.Common.TextInputEventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">OpenTK.Windowing.Desktop.NativeWindow.OnTextInput(OpenTK.Windowing.Common.TextInputEventArgs)</span></div>
+  <a id="Vox_Populi_Window_OnUpdateFrame_" data-uid="Vox_Populi.Window.OnUpdateFrame*"></a>
+  <h4 id="Vox_Populi_Window_OnUpdateFrame_OpenTK_Windowing_Common_FrameEventArgs_" data-uid="Vox_Populi.Window.OnUpdateFrame(OpenTK.Windowing.Common.FrameEventArgs)">OnUpdateFrame(FrameEventArgs)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnUpdateFrame(FrameEventArgs e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OpenTK.Windowing.Common.FrameEventArgs</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">OpenTK.Windowing.Desktop.GameWindow.OnUpdateFrame(OpenTK.Windowing.Common.FrameEventArgs)</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

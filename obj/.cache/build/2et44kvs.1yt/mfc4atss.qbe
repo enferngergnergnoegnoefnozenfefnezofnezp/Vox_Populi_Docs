@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="Vox_Populi_MessageExtensions" data-uid="Vox_Populi.MessageExtensions" class="text-break">Class MessageExtensions
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">MessageExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Vox_Populi.html">Vox_Populi</a></h6>
+  <h6><strong>Assembly</strong>: Vox__Populi.dll</h6>
+  <h5 id="Vox_Populi_MessageExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class MessageExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Vox_Populi_MessageExtensions_Add_" data-uid="Vox_Populi.MessageExtensions.Add*"></a>
+  <h4 id="Vox_Populi_MessageExtensions_Add_Riptide_Message_OpenTK_Mathematics_Quaternion_" data-uid="Vox_Populi.MessageExtensions.Add(Riptide.Message,OpenTK.Mathematics.Quaternion)">Add(Message, Quaternion)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Message Add(this Message message, Quaternion value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Riptide.Message</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">OpenTK.Mathematics.Quaternion</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Riptide.Message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vox_Populi_MessageExtensions_Add_Riptide_Message_OpenTK_Mathematics_Quaternion__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">This method is simply an alternative way of calling <a class="xref" href="Vox_Populi.MessageExtensions.html#Vox_Populi_MessageExtensions_AddQuaternion_Riptide_Message_OpenTK_Mathematics_Quaternion_">AddQuaternion(Message, Quaternion)</a>.</p>
+</div>
+  <a id="Vox_Populi_MessageExtensions_Add_" data-uid="Vox_Populi.MessageExtensions.Add*"></a>
+  <h4 id="Vox_Populi_MessageExtensions_Add_Riptide_Message_OpenTK_Mathematics_Vector2_" data-uid="Vox_Populi.MessageExtensions.Add(Riptide.Message,OpenTK.Mathematics.Vector2)">Add(Message, Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Message Add(this Message message, Vector2 value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Riptide.Message</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">OpenTK.Mathematics.Vector2</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Riptide.Message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vox_Populi_MessageExtensions_Add_Riptide_Message_OpenTK_Mathematics_Vector2__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">This method is simply an alternative way of calling <a class="xref" href="Vox_Populi.MessageExtensions.html#Vox_Populi_MessageExtensions_AddVector2_Riptide_Message_OpenTK_Mathematics_Vector2_">AddVector2(Message, Vector2)</a>.</p>
+</div>
+  <a id="Vox_Populi_MessageExtensions_Add_" data-uid="Vox_Populi.MessageExtensions.Add*"></a>
+  <h4 id="Vox_Populi_MessageExtensions_Add_Riptide_Message_OpenTK_Mathematics_Vector3_" data-uid="Vox_Populi.MessageExtensions.Add(Riptide.Message,OpenTK.Mathematics.Vector3)">Add(Message, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Message Add(this Message message, Vector3 value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Riptide.Message</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">OpenTK.Mathematics.Vector3</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Riptide.Message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vox_Populi_MessageExtensions_Add_Riptide_Message_OpenTK_Mathematics_Vector3__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">This method is simply an alternative way of calling <a class="xref" href="Vox_Populi.MessageExtensions.html#Vox_Populi_MessageExtensions_AddVector2_Riptide_Message_OpenTK_Mathematics_Vector2_">AddVector2(Message, Vector2)</a>.</p>
+</div>
+  <a id="Vox_Populi_MessageExtensions_AddQuaternion_" data-uid="Vox_Populi.MessageExtensions.AddQuaternion*"></a>
+  <h4 id="Vox_Populi_MessageExtensions_AddQuaternion_Riptide_Message_OpenTK_Mathematics_Quaternion_" data-uid="Vox_Populi.MessageExtensions.AddQuaternion(Riptide.Message,OpenTK.Mathematics.Quaternion)">AddQuaternion(Message, Quaternion)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Adds a <span class="xref">OpenTK.Mathematics.Quaternion</span> to the message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Message AddQuaternion(this Message message, Quaternion value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Riptide.Message</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">OpenTK.Mathematics.Quaternion</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The <span class="xref">OpenTK.Mathematics.Quaternion</span> to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Riptide.Message</span></td>
+        <td><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The message that the <span class="xref">OpenTK.Mathematics.Quaternion</span> was added to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vox_Populi_MessageExtensions_AddVector2_" data-uid="Vox_Populi.MessageExtensions.AddVector2*"></a>
+  <h4 id="Vox_Populi_MessageExtensions_AddVector2_Riptide_Message_OpenTK_Mathematics_Vector2_" data-uid="Vox_Populi.MessageExtensions.AddVector2(Riptide.Message,OpenTK.Mathematics.Vector2)">AddVector2(Message, Vector2)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Adds a <span class="xref">OpenTK.Mathematics.Vector2</span> to the message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Message AddVector2(this Message message, Vector2 value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Riptide.Message</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">OpenTK.Mathematics.Vector2</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The <span class="xref">OpenTK.Mathematics.Vector2</span> to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Riptide.Message</span></td>
+        <td><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The message that the <span class="xref">OpenTK.Mathematics.Vector2</span> was added to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vox_Populi_MessageExtensions_AddVector3_" data-uid="Vox_Populi.MessageExtensions.AddVector3*"></a>
+  <h4 id="Vox_Populi_MessageExtensions_AddVector3_Riptide_Message_OpenTK_Mathematics_Vector3_" data-uid="Vox_Populi.MessageExtensions.AddVector3(Riptide.Message,OpenTK.Mathematics.Vector3)">AddVector3(Message, Vector3)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Adds a <span class="xref">OpenTK.Mathematics.Vector2</span> to the message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Message AddVector3(this Message message, Vector3 value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Riptide.Message</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">OpenTK.Mathematics.Vector3</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The <span class="xref">OpenTK.Mathematics.Vector2</span> to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Riptide.Message</span></td>
+        <td><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The message that the <span class="xref">OpenTK.Mathematics.Vector2</span> was added to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vox_Populi_MessageExtensions_GetQuaternion_" data-uid="Vox_Populi.MessageExtensions.GetQuaternion*"></a>
+  <h4 id="Vox_Populi_MessageExtensions_GetQuaternion_Riptide_Message_" data-uid="Vox_Populi.MessageExtensions.GetQuaternion(Riptide.Message)">GetQuaternion(Message)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Retrieves a <span class="xref">OpenTK.Mathematics.Quaternion</span> from the message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quaternion GetQuaternion(this Message message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Riptide.Message</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OpenTK.Mathematics.Quaternion</span></td>
+        <td><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The <span class="xref">OpenTK.Mathematics.Quaternion</span> that was retrieved.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vox_Populi_MessageExtensions_GetVector2_" data-uid="Vox_Populi.MessageExtensions.GetVector2*"></a>
+  <h4 id="Vox_Populi_MessageExtensions_GetVector2_Riptide_Message_" data-uid="Vox_Populi.MessageExtensions.GetVector2(Riptide.Message)">GetVector2(Message)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Retrieves a <span class="xref">OpenTK.Mathematics.Vector2</span> from the message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 GetVector2(this Message message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Riptide.Message</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OpenTK.Mathematics.Vector2</span></td>
+        <td><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The <span class="xref">OpenTK.Mathematics.Vector2</span> that was retrieved.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vox_Populi_MessageExtensions_GetVector3_" data-uid="Vox_Populi.MessageExtensions.GetVector3*"></a>
+  <h4 id="Vox_Populi_MessageExtensions_GetVector3_Riptide_Message_" data-uid="Vox_Populi.MessageExtensions.GetVector3(Riptide.Message)">GetVector3(Message)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">Retrieves a <span class="xref">OpenTK.Mathematics.Vector2</span> from the message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 GetVector3(this Message message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Riptide.Message</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OpenTK.Mathematics.Vector3</span></td>
+        <td><p sourcefile="api/Vox_Populi.MessageExtensions.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The <span class="xref">OpenTK.Mathematics.Vector2</span> that was retrieved.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

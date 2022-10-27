@@ -1,0 +1,300 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/main.css">
+  </head>
+  <body>
+    <article>
+  
+  
+  <h1 id="OutlawEngine_Shader" data-uid="OutlawEngine.Shader" class="text-break">Class Shader
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Shader</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="OutlawEngine.html">OutlawEngine</a></h6>
+  <h6><strong>Assembly</strong>: OutlawEngine.dll</h6>
+  <h5 id="OutlawEngine_Shader_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Shader</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="OutlawEngine_Shader__ctor_" data-uid="OutlawEngine.Shader.#ctor*"></a>
+  <h4 id="OutlawEngine_Shader__ctor_System_String_System_String_" data-uid="OutlawEngine.Shader.#ctor(System.String,System.String)">Shader(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Shader(string vertPath, string fragPath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">vertPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fragPath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <h4 id="OutlawEngine_Shader_Handle" data-uid="OutlawEngine.Shader.Handle">Handle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly int Handle</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="OutlawEngine_Shader_GetAttribLocation_" data-uid="OutlawEngine.Shader.GetAttribLocation*"></a>
+  <h4 id="OutlawEngine_Shader_GetAttribLocation_System_String_" data-uid="OutlawEngine.Shader.GetAttribLocation(System.String)">GetAttribLocation(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetAttribLocation(string attribName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">attribName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="OutlawEngine_Shader_SetFloat_" data-uid="OutlawEngine.Shader.SetFloat*"></a>
+  <h4 id="OutlawEngine_Shader_SetFloat_System_String_System_Single_" data-uid="OutlawEngine.Shader.SetFloat(System.String,System.Single)">SetFloat(String, Single)</h4>
+  <div class="markdown level1 summary"><p>Set a uniform float on this shader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFloat(string name, float data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the uniform</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data to set</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="OutlawEngine_Shader_SetInt_" data-uid="OutlawEngine.Shader.SetInt*"></a>
+  <h4 id="OutlawEngine_Shader_SetInt_System_String_System_Int32_" data-uid="OutlawEngine.Shader.SetInt(System.String,System.Int32)">SetInt(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Set a uniform int on this shader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInt(string name, int data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the uniform</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data to set</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="OutlawEngine_Shader_SetMatrix4_" data-uid="OutlawEngine.Shader.SetMatrix4*"></a>
+  <h4 id="OutlawEngine_Shader_SetMatrix4_System_String_OpenTK_Mathematics_Matrix4_" data-uid="OutlawEngine.Shader.SetMatrix4(System.String,OpenTK.Mathematics.Matrix4)">SetMatrix4(String, Matrix4)</h4>
+  <div class="markdown level1 summary"><p>Set a uniform Matrix4 on this shader</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMatrix4(string name, Matrix4 data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the uniform</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">OpenTK.Mathematics.Matrix4</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data to set</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="OutlawEngine_Shader_SetMatrix4_System_String_OpenTK_Mathematics_Matrix4__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+The matrix is transposed before being sent to the shader.
+</p>
+</div>
+  <a id="OutlawEngine_Shader_SetVector3_" data-uid="OutlawEngine.Shader.SetVector3*"></a>
+  <h4 id="OutlawEngine_Shader_SetVector3_System_String_OpenTK_Mathematics_Vector3_" data-uid="OutlawEngine.Shader.SetVector3(System.String,OpenTK.Mathematics.Vector3)">SetVector3(String, Vector3)</h4>
+  <div class="markdown level1 summary"><p>Set a uniform Vector3 on this shader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetVector3(string name, Vector3 data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the uniform</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">OpenTK.Mathematics.Vector3</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data to set</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="OutlawEngine_Shader_Use_" data-uid="OutlawEngine.Shader.Use*"></a>
+  <h4 id="OutlawEngine_Shader_Use" data-uid="OutlawEngine.Shader.Use">Use()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Use()</code></pre>
+  </div>
+</article>
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
