@@ -1,0 +1,404 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Florian/source/repos/Vox__Populi/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OutlawEngine.Camera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OutlawEngine.Camera.html",
+          "hash": "EnbOKjSZGTkIMfirpl1rLvtsh7RtgOVrc/jw3dAPB7U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OutlawEngine.ImGuiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OutlawEngine.ImGuiController.html",
+          "hash": "FGgKttjBgzSQaVMVD43EQhieBHwub3nK/8KI83DOSew="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OutlawEngine.Shader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OutlawEngine.Shader.html",
+          "hash": "iPh5XqEFi3Ty5IPiV1ldKh0HzcQFvlvNda7U4Fp2SKE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OutlawEngine.Texture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OutlawEngine.Texture.html",
+          "hash": "67hG60LFixo4n5nuV9fWvVi9OkDLXm+aCBV3UBu5gJ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OutlawEngine.TextureAtlas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OutlawEngine.TextureAtlas.html",
+          "hash": "vtY5WD67iwd+8xj5iu7YPjjilpTeoG6XJAwOA17ZO50="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OutlawEngine.renderer.render.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OutlawEngine.renderer.render.html",
+          "hash": "wFld8Ffvl/ltH1EncR7q5rd5eu5+J/l++Diu8k/5YZ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OutlawEngine.renderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OutlawEngine.renderer.html",
+          "hash": "xGWQMj7HeixQp6GOntpvC+5NMLGrJjTjgAqzy+5zwwM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/OutlawEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/OutlawEngine.html",
+          "hash": "m3GXwibzNYtba7XFP6feSS+M67Byz7MmQn2+FRUAE78="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vox_Populi.Chunk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vox_Populi.Chunk.html",
+          "hash": "ej0WvZrfJ3fa1njkmZ78SBX6aE4ImT8oTz7nG3HM+8U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vox_Populi.Chunk_Manager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vox_Populi.Chunk_Manager.html",
+          "hash": "Nu9YytL1Ol6p0jGaEOpqqeaTwHP8HE2DzsTUZasWRdg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vox_Populi.MessageExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vox_Populi.MessageExtensions.html",
+          "hash": "qrRovgHGjvRKUWHYKBTuXh3APB6bUTcX6YBZDPdaR0c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vox_Populi.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vox_Populi.Program.html",
+          "hash": "kYSiEhoWEdnOp5yqqjcuFcdutJln3D95u5xH2ERhSpM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vox_Populi.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vox_Populi.Utils.html",
+          "hash": "odnri1vB2fQB/ql6r22icFDikxp8zOXRCoTLej609tA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vox_Populi.Window.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vox_Populi.Window.html",
+          "hash": "IU1VX+QzzCxGoPUKgbdTA8d+YovyILhOca1nkdFfhq8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vox_Populi.player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vox_Populi.player.html",
+          "hash": "Mb6RGLkeTOvTm5yuVBqOPTQu3ic42p+PJ4lijObwlYI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vox_Populi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vox_Populi.html",
+          "hash": "GIGL9yrf6nDOCJB58lqMVro+Hpvo3WLvMaX1c6n+VbY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vox_Populi_Server.Chunk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vox_Populi_Server.Chunk.html",
+          "hash": "C5PMSbrc09vAeuxdyHnRTP1/dpACfIhL6GpOsuiDMyM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vox_Populi_Server.Chunk_Manager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vox_Populi_Server.Chunk_Manager.html",
+          "hash": "xfLp9K1u2uxNzkFpxBx0AAUUgWGfJ+HOS+BitaAY2Ho="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vox_Populi_Server.MessageExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vox_Populi_Server.MessageExtensions.html",
+          "hash": "DePelZfnqRFBM0UIa64Z7b4cblE7ja+Zkf3HASkbQLk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vox_Populi_Server.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vox_Populi_Server.Program.html",
+          "hash": "J8vdFV3Te+R/D+6EoojDAk9XEXKwX10/jWJezllimwQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vox_Populi_Server.utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vox_Populi_Server.utils.html",
+          "hash": "+BE2EQvH3LEo5zqNTj4nvaMQ0XV7NB2tOmt5d2vKKZk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vox_Populi_Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vox_Populi_Server.html",
+          "hash": "0aGVqyfK0EF1jwoFpt02NlcFnncnTE7HOzgqQCMbsf0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "w8d1EpB2lW1D3UCMrWZ0ksbZYHNg9tW3sG1gvOi2q60="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "Hnk9dryYVsrvuwPe74ylbG1Jk9ZlqHZAJv8YPF3nJ4I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "lL9N1ciFJpQW/9VfFRTnb0MbYu42fiosKoOoK/xYLqI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/protocol.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/protocol.html",
+          "hash": "93qYGDO4ciENM5o/14hZquupmzJ+VJoKepkiDAiOK64="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "Dv4VGOh+/l3rKfrdgFivm9N7dziFZ8ff9xU6p+KHzZ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "uQiOLckxmpguAW0I3wZ9MSJZhXIpk/qTLoh07UkkF3s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 22,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
