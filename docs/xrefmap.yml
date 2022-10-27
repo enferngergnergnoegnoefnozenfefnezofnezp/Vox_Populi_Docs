@@ -603,6 +603,19 @@ references:
   commentId: T:Vox_Populi.Chunk_Manager
   fullName: Vox_Populi.Chunk_Manager
   nameWithType: Chunk_Manager
+- uid: Vox_Populi.Chunk_Manager.changechunk(OpenTK.Mathematics.Vector2,OpenTK.Mathematics.Vector3,System.Int16)
+  name: changechunk(Vector2, Vector3, Int16)
+  href: api/Vox_Populi.Chunk_Manager.html#Vox_Populi_Chunk_Manager_changechunk_OpenTK_Mathematics_Vector2_OpenTK_Mathematics_Vector3_System_Int16_
+  commentId: M:Vox_Populi.Chunk_Manager.changechunk(OpenTK.Mathematics.Vector2,OpenTK.Mathematics.Vector3,System.Int16)
+  fullName: Vox_Populi.Chunk_Manager.changechunk(OpenTK.Mathematics.Vector2, OpenTK.Mathematics.Vector3, System.Int16)
+  nameWithType: Chunk_Manager.changechunk(Vector2, Vector3, Int16)
+- uid: Vox_Populi.Chunk_Manager.changechunk*
+  name: changechunk
+  href: api/Vox_Populi.Chunk_Manager.html#Vox_Populi_Chunk_Manager_changechunk_
+  commentId: Overload:Vox_Populi.Chunk_Manager.changechunk
+  isSpec: "True"
+  fullName: Vox_Populi.Chunk_Manager.changechunk
+  nameWithType: Chunk_Manager.changechunk
 - uid: Vox_Populi.Chunk_Manager.clist
   name: clist
   href: api/Vox_Populi.Chunk_Manager.html#Vox_Populi_Chunk_Manager_clist
@@ -634,12 +647,12 @@ references:
   commentId: F:Vox_Populi.Chunk_Manager.render_distance
   fullName: Vox_Populi.Chunk_Manager.render_distance
   nameWithType: Chunk_Manager.render_distance
-- uid: Vox_Populi.Chunk_Manager.RenderChunk(OutlawEngine.Shader,OutlawEngine.Texture)
-  name: RenderChunk(Shader, Texture)
-  href: api/Vox_Populi.Chunk_Manager.html#Vox_Populi_Chunk_Manager_RenderChunk_OutlawEngine_Shader_OutlawEngine_Texture_
-  commentId: M:Vox_Populi.Chunk_Manager.RenderChunk(OutlawEngine.Shader,OutlawEngine.Texture)
-  fullName: Vox_Populi.Chunk_Manager.RenderChunk(OutlawEngine.Shader, OutlawEngine.Texture)
-  nameWithType: Chunk_Manager.RenderChunk(Shader, Texture)
+- uid: Vox_Populi.Chunk_Manager.RenderChunk(OutlawEngine.Shader,OutlawEngine.Texture,OpenTK.Mathematics.Vector3)
+  name: RenderChunk(Shader, Texture, Vector3)
+  href: api/Vox_Populi.Chunk_Manager.html#Vox_Populi_Chunk_Manager_RenderChunk_OutlawEngine_Shader_OutlawEngine_Texture_OpenTK_Mathematics_Vector3_
+  commentId: M:Vox_Populi.Chunk_Manager.RenderChunk(OutlawEngine.Shader,OutlawEngine.Texture,OpenTK.Mathematics.Vector3)
+  fullName: Vox_Populi.Chunk_Manager.RenderChunk(OutlawEngine.Shader, OutlawEngine.Texture, OpenTK.Mathematics.Vector3)
+  nameWithType: Chunk_Manager.RenderChunk(Shader, Texture, Vector3)
 - uid: Vox_Populi.Chunk_Manager.RenderChunk*
   name: RenderChunk
   href: api/Vox_Populi.Chunk_Manager.html#Vox_Populi_Chunk_Manager_RenderChunk_
